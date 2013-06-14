@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="diagrams.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3763"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3763-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3763-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4243"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4245"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4243-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4245-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4243-6-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4245-0-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-17"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3763-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3085"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3087"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="339.88025"
+     inkscape:cy="952.74033"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2985"
+       width="259.54587"
+       height="261.79337"
+       x="18.49964"
+       y="9.6783524"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 50.002551,240.58082 0,-203.674485"
+       id="path3755"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 50.190709,240.19953 203.674481,0"
+       id="path3755-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="147.98735"
+       y="49.785782"
+       id="text4225"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan4227"
+         x="147.98735"
+         y="49.785782"
+         style="font-size:32px">A</tspan></text>
+    <path
+       style="fill:none;stroke:#ff1616;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 60.104077,46.755323 C 119.70308,164.38859 179.30208,203.90282 238.90108,231.10816"
+       id="path4229"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2985-4"
+       width="259.54587"
+       height="261.79337"
+       x="281.66238"
+       y="9.8085976"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 313.56901,240.6995 0,-203.674475"
+       id="path3755-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 313.75716,240.31821 203.67449,0"
+       id="path3755-4-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="411.5538"
+       y="49.904461"
+       id="text4225-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan4227-4"
+         x="411.5538"
+         y="49.904461"
+         style="font-size:32px">B</tspan></text>
+    <path
+       style="fill:none;stroke:#ff1616;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 324.17561,39.802946 c 0,223.230304 -8.81817,196.979734 177.78685,196.979734"
+       id="path4229-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4278"
+       width="426.78943"
+       height="269.08554"
+       x="12.12183"
+       y="291.71732"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\landscapepoint.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 223.37616,412.31731 -50.35336,-55.90285 70.65076,23.91504 -33.01974,0.67296 z"
+       id="path4280"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\landscapepoint.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.626907,502.33412 52.527932,-56.56854 32.829955,89.90358 40.911186,-46.9721 29.79949,33.33504 53.03301,-58.58885 26.76904,76.77159 55.05332,-24.24366 37.88072,-3.03046 51.0127,9.09137 22.72844,-17.17259 23.73858,-16.16244"
+       id="path4290"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\landscapepoint.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:4,4;stroke-dashoffset:0"
+       d="m 204.55589,377.07521 0,183.34268"
+       id="path4292"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\landscapepoint.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:4,4;stroke-dashoffset:0"
+       d="m 168.1904,560.41789 0,-269.20565"
+       id="path4294"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\landscapepoint.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0"
+       d="m 221.22341,560.67043 0,-269.20565"
+       id="path4294-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\landscapepoint.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 265.04073,865.15112 -50.35336,-55.90285 70.65076,23.91504 -33.01974,0.67296 z"
+       id="path4280-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\macroaction.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4243)"
+       d="M 211.62695,807.90526 115.66246,749.31642"
+       id="path4395"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\macroaction.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4243)"
+       d="m 143.32065,711.53603 60.85119,-27.4747"
+       id="path4395-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\macroaction.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 68.984162,740.32711 139.53538,714.19067 91.209482,771.00674 102.78377,740.07469 z"
+       id="path4280-4-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\macroaction.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4243-6)"
+       d="m 118.49711,713.01956 c -50.970871,17.20769 -44.946503,-44.409 -3.58509,-31.21115"
+       id="path4627"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\macroaction.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 225.11779,641.42501 -5.60598,75.02774 -31.54112,-67.59154 23.30605,23.40051 z"
+       id="path4280-4-6-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\macroaction.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4243-6)"
+       d="m 234.16238,667.72286 c 21.17541,0.71906 29.67889,28.34266 4.84838,43.33686"
+       id="path4627-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\macroaction.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="42.931488"
+       y="834.67432"
+       id="text4861"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\macroaction.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan4863"
+         x="42.931488"
+         y="834.67432">[v, θ, t] </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="125.76399"
+       y="259.89752"
+       id="text3029"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan3031"
+         x="125.76399"
+         y="259.89752"
+         style="font-size:18px">Time</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="36.208977"
+       y="87.437431"
+       id="text3029-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan3031-7"
+         x="308.15576"
+         y="-184.50935"
+         style="font-size:18px;writing-mode:tb-rl">Error</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="387.54727"
+       y="260.04486"
+       id="text3029-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan3031-0"
+         x="387.54727"
+         y="260.04486"
+         style="font-size:18px">Time</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="297.99228"
+       y="87.584785"
+       id="text3029-1-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan3031-7-4"
+         x="345.17368"
+         y="40.40337"
+         style="font-size:18px;writing-mode:tb-rl">Error</tspan></text>
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2985-4-0"
+       width="259.54587"
+       height="261.79337"
+       x="545.00897"
+       y="9.8028316"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 576.91559,240.69373 0,-203.674471"
+       id="path3755-8-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 577.10374,240.31244 203.67449,0"
+       id="path3755-4-8-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="674.90039"
+       y="49.898705"
+       id="text4225-2-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan4227-4-8"
+         x="674.90039"
+         y="49.898705"
+         style="font-size:32px">C</tspan></text>
+    <path
+       style="fill:none;stroke:#ff1616;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 585.50188,63.030687 766.82426,63.53575"
+       id="path4229-5-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="650.89386"
+       y="260.03912"
+       id="text3029-4-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan3031-0-5"
+         x="650.89386"
+         y="260.03912"
+         style="font-size:18px">Time</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="561.33887"
+       y="87.579018"
+       id="text3029-1-9-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Dropbox\University\DifficultyInvestigation\paper\img\improvement.png"
+       inkscape:export-xdpi="360"
+       inkscape:export-ydpi="360"><tspan
+         sodipodi:role="line"
+         id="tspan3031-7-4-1"
+         x="227.99022"
+         y="420.92767"
+         style="font-size:18px;writing-mode:tb-rl">Error</tspan></text>
+  </g>
+</svg>

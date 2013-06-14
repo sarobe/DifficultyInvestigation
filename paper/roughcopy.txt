@@ -1,0 +1,50 @@
+My overall opinion is that this is a good, well written paper that tries to address a deep question, that is, what is interesting and how can we find it automatically?  The suggested approach seems reasonable as a first stab at such a big problem and can potentially lead to further studies that build on these initial results.  On the other hand, I felt the paper did not really make an effort to address the big picture questions that I was expecting it eventually to at least speculate on.  Instead it stayed mainly narrowly focused just on the very specific Lunar Lander variants that were discovered, which was a bit of a disappointment given how promising the general idea could be in the future.  I think a revision could find some room to discuss the broader questions raised here on what might be possible to accomplish in general for games with this kind of search for interestingness.  Can there someday be an automated game designer driven by such a search?  What is the future of this kind of approach?
+
+
+
+
+
+
+As has been demonstrated in the past \cite{brown10}, it is entirely possible that an automated game designer or design tool could be implemented and driven by some measure of a game's interestingness. By dynamically analysing whether a particular set of parameters is more interesting or not, it becomes easier to automate the process of refining elements of a game's design or to construct them from scratch. This measure could either similar to the one presented within this paper, based upon the progress made by attempting to find solutions to the game, or by some other definition of interestingness. 
+
+
+
+
+
+
+
+There are also many other questions, but I do not want to overemphasize these as negatives given that such an ambitious undertaking would be impossible if every big question was required to be answered to the reader's full satisfaction.  However, it's still interesting to consider potentially addressing a few of these:  
+
+-Is the representation actions perhaps leading to a result that only really applies to the particular vector-based action encoding? For example, would it be similar if the lander were controlled by a neural network?  (Actually my guess is that the results would be similar, but the authors could probably speculate better.)
+
+
+
+
+
+
+It is entirely possible that the results presented within this paper are heavily impacted by the particular choice of encoding for actions, and that a different representation may have resulted in different results. However, there are only so many possible actions within this environment, and the definition of the measure of interestingness is based on the success of solutions and not their actual content. It may be just as likely that a different encoding for actions or a different controller would produce similar results with only minor differences.
+
+
+
+
+
+
+-Does the definition of interestingness really capture the right idea?  The authors acknowledge it might be possible to improve, so they are forthright on the issue, but it's still an important question.  The attempt to quantify interestingness here actually reminded me a bit of a paper from last year on quantifying "impressiveness" - I wonder if these ideas could be combined or reconciled at all? I imagine there are other such similar attempts at quantifying such subjective concepts as well.
+
+
+
+
+
+
+Previous work has examined the idea of interestingness or impressiveness in generating novel artifacts \cite{lehman12}, with the notion of interestingness relating to the hypothetical difficulty of reconstructing said artifacts from an initial blank slate. In this work, we examine a notion of interestingness based upon the difficulty of solving a problem given certain environmental parameters, as the focus is more on dynamic problems than the creation of interesting artifacts. 
+
+
+
+
+
+
+-It would be particularly interesting to hear what it is like to play the "interesting" variants for humans?  Presumably someday the aim of this kind of work is to automatically produce games that are actually interesting for human players, so some sense (even just informally) of whether the results hold even a little bit for humans would be interesting.
+
+
+
+While we have examined the level of interestingness for a variety of parameter combinations within the {\itshape Lunar Lander} context, it is clear that this is a very mechanical way of determining the interestingness. As the interestingness measure ties into how well a computer controller can play the game, there are necessarily differences between how a human player might perceive the interestingness of a particular scenario and the value produced by the interestingness measure. It is perhaps safe to assume that there would be some connection, as an impossible game is not fun for a human player, and neither is a trivial game. However, the capacity for the computer controller to perform manuevers that a human player could not through frame-perfect course changes means it can easily be the case that a human player could struggle with a set of game parameters rated high in interestingness. Likewise, human ingenuity can be more than capable of solving some games that the software cannot. Future work comparing the reactions of human players to what the interestingness measure predicts for a given set of game parameters would be useful in determining how applicable this or similar measures could be in game design.

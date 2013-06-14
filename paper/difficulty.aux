@@ -1,0 +1,71 @@
+\relax 
+\citation{kramer10}
+\citation{lehman12}
+\citation{potter94}
+\citation{cook12}
+\citation{kerssemakers12}
+\citation{koster04}
+\citation{pedersen10}
+\citation{brown10}
+\citation{roberts12}
+\citation{hansen06}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-A}}Motivation}{1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {I-A}1}Effect of Constraints on Difficulty of Problems}{1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {I-A}2}Quantifying Interestingness of Problems}{1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {I-A}3}Examining Constraint Impact in a Game Context}{1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {I-A}4}Automated Game Design}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-B}}Prior Research}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Methodology}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Software Implementation}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Environment and Physics}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A view of ships within this environment.\relax }}{2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:lunarlandscape}{{1}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The point closest to the spaceship on the landscape lies in between two of the defined vertices of the landscape, and requires interpolation to calculate the y co-ordinate from the x co-ordinate of the ship.\relax }}{3}}
+\newlabel{fig:graph_landscapepoint}{{2}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}The Vehicle}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-D}}Vehicle Control and Solutions}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Each set of three doubles determines the linear thrust, the angular impulse and the amount of steps to repeat the action for. Upon finishing the action, the next action is used. When the last action is used, the first action is used afterwards and the process repeats.\relax }}{4}}
+\newlabel{fig:graph_macroaction}{{3}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-E}}Solution Suitability Measure}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-E}1}Velocity}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-E}2}Proximity}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-E}3}Landing Angle}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-E}4}Fuel Consumption}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-E}5}Total Effectiveness}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-E}6}Alternate Measure}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-F}}Problem Representation}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-G}}Problem Interestingness Measure}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces An interesting problem should produce a curve like graph A. A trivial problem will produce a curve like graph B, and will not score highly on the interestingness measure as the initial random fitness will likely be much higher, making the relative progress smaller. Too difficult a problem will produce a curve like graph C, and will not score highly as there will have been little to no improvement in fitness at all.\relax }}{5}}
+\newlabel{fig:graph_improvement}{{4}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Constant Values\relax }}{5}}
+\newlabel{tab:const}{{I}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Variable Parameters\relax }}{5}}
+\newlabel{tab:params}{{II}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Results}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Evolving Individual Parameters}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Varying Individual Parameters Alone\relax }}{5}}
+\newlabel{tab:single}{{III}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The progress of a problem population evolving to produce interesting problems, with the only parameter varying being the velocity loss factor. Barely any improvement is made at all as a result of varying only this one parameter.\relax }}{5}}
+\newlabel{fig:graph_varyingvelloss}{{5}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Evolving All Parameters}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Example Evolved Parameter Set\relax }}{6}}
+\newlabel{tab:example}{{IV}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The progress of a problem population evolving to produce interesting problems, with all parameters of the problem free to change. Improvement is erratic for multiple generations until a single highly effective set of parameters is found. These parameters are listed in Table IV\hbox {}.\relax }}{6}}
+\newlabel{fig:graph_evoproblems}{{6}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Co-evolution of Parameters and Weights}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Conclusion}{7}}
+\bibstyle{IEEEtran}
+\bibdata{difficultybib}
+\bibcite{kramer10}{1}
+\bibcite{lehman12}{2}
+\bibcite{potter94}{3}
+\bibcite{cook12}{4}
+\bibcite{kerssemakers12}{5}
+\bibcite{koster04}{6}
+\bibcite{pedersen10}{7}
+\bibcite{brown10}{8}
+\bibcite{roberts12}{9}
+\bibcite{hansen06}{10}
+\@writefile{toc}{\contentsline {section}{References}{8}}
