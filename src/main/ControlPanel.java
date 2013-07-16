@@ -195,6 +195,26 @@ public class ControlPanel extends JPanel {
         toggleDemo.setText("Show Demo");
     }
 
+    public void updateValues() {
+        numEvalsSlider.slider.setValue(Params.numEvals);
+        popSizeSlider.slider.setValue(Params.popSize);
+        valueRangeSlider.slider.setValue((int)Params.valueRange);
+        uprightAngularToleranceSlider.slider.setValue((int)(Params.uprightAngularTolerance*100) );
+        lunarGravitySlider.slider.setValue((int)Params.lunarGravity);
+        frictionSlider.slider.setValue((int)(Params.friction*100) );
+        randomSeedSlider.slider.setValue(Params.randomSeed);
+        numLandingPadsSlider.slider.setValue(Params.numLandingPads);
+        landingPadSizeSlider.slider.setValue(Params.landingPadSize);
+        survivableVelocitySlider.slider.setValue((int)Params.survivableVelocity);
+        startingFuelSlider.slider.setValue((int)Params.startingFuel);
+        stepsSlider.slider.setValue(Params.steps);
+        thrustSlider.slider.setValue((int)Params.thrustLimit);
+        proximitySlider.slider.setValue((int)(Params.proximityWeight*100) );
+        velocitySlider.slider.setValue((int)(Params.velocityWeight*100) );
+        fuelSlider.slider.setValue((int)(Params.fuelWeight*100) );
+        angleSlider.slider.setValue((int)(Params.angleWeight*100) );
+    }
+
     public Dimension getPreferredSize() {
         return new Dimension(410, Params.screenHeight);
     }

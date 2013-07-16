@@ -15,9 +15,9 @@ import java.io.File;
 
 public class MainView extends JPanel {
 
-    ControlPanel cp;
-    StatsVisualiser stv;
-    SpaceshipVisualiser spv;
+    public ControlPanel cp;
+    public StatsVisualiser stv;
+    public SpaceshipVisualiser spv;
     Runner r; // handles simulation for fitness calculation in a separate thread!
     Demonstrator d; // handles simulation of demonstration in a separate thread!
 
@@ -28,6 +28,8 @@ public class MainView extends JPanel {
     public boolean running = false;
     public boolean demoing = false;
     public String currentStrategy = "CMA-ES";
+
+    public static MainView mainView; // null if no view, otherwise exists
 
     public double[] bestSolution;
 
@@ -46,13 +48,15 @@ public class MainView extends JPanel {
         add(spv, BorderLayout.EAST);
 
         bestSolution = new double[3 * Params.maxActions];
+
+        mainView = this;
     }
 
     public void startRun() {
         running = true;
         int runIndex = getNextRunIndex();
         stv.setRunIndex(runIndex);
-        problem = new LunarProblem();
+        problem = new ProblemProblem(runIndex, ParamEnums.ALL_PARAMS);
         if(currentStrategy.equals("CMA-ES")) {
             handler = new CMAHandler(problem, runIndex, 0, 1, 10);//Params.valueRange);
         } else if(currentStrategy.equals("T-HOO")) {

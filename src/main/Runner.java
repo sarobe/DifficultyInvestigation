@@ -27,7 +27,7 @@ public class Runner implements Runnable {
     }
 
     public void run() {
-        int addResultInterval = 15;
+        int addResultInterval = 1;
 
         while ((!handler.hasCompleted() && running)) {
             handler.run();

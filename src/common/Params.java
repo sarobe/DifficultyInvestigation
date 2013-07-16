@@ -25,11 +25,11 @@ public class Params {
 
     public static double bracketedRange = 1E-2;
 
-    public static int numEvals = 10000;
+    public static int numEvals = 1000;
     public static int numEvalsMin = 1000;
     public static int numEvalsMax = 500000;
 
-    public static int popSize = 30;
+    public static int popSize = 10;
     public static int popSizeMin = 10;
     public static int popSizeMax = 100;
 

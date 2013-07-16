@@ -5,6 +5,7 @@ import common.Params;
 import common.math.Vector2d;
 import controller.ShipController;
 import entity.spaceship.Spaceship;
+import main.MainView;
 import main.ParamEnums;
 import main.StatsVisualiser;
 import strategy.CMAHandler;
@@ -65,7 +66,7 @@ public class ProblemProblem implements IProblem<double[]> {
             score = Double.POSITIVE_INFINITY;
         } else {
             // get evolved solutions
-            for(int i=0; i<3; i++) {
+//            for(int i=0; i<3; i++) {
                 lp = new LunarProblem();
                 CMAHandler cma = new CMAHandler(lp, 0, 0, Params.valueRange, Params.popSize);
 
@@ -78,8 +79,8 @@ public class ProblemProblem implements IProblem<double[]> {
                 double subScore = ((endBestFitness - randMeanFitness)/randStdDevFitness);
 
                 score += subScore;
-            }
-            score /= 3;
+//            }
+//            score /= 3;
         }
         return score;
     }
@@ -135,7 +136,12 @@ public class ProblemProblem implements IProblem<double[]> {
         Params.angleWeight =
                 ((param == ParamEnums.ALL_PARAMS) || (param == ParamEnums.W_ANGLE)) ? angleWeight : 1.0;
 
-        Params.numEvals = 10000;
+//        Params.numEvals = 10000;
+
+        if(MainView.mainView != null) {
+            MainView mainView = MainView.mainView;
+            mainView.cp.updateValues();
+        }
     }
 
 
