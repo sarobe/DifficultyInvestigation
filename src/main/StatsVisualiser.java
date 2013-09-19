@@ -92,10 +92,6 @@ public class StatsVisualiser extends JComponent {
         bestResult = minRange;
     }
 
-    public double getBestResult() {
-        return bestResult;
-    }
-
     public void paintComponent(Graphics g) {
         int width = (int)(getSize().getWidth());
         int height = (int)(getSize().getHeight());

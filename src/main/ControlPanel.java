@@ -90,22 +90,22 @@ public class ControlPanel extends JPanel {
         toggleDemo.setAlignmentX(Component.CENTER_ALIGNMENT);
         toggleRun.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        JComboBox strategyBox = new JComboBox(Params.strategies);
-        strategyBox.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                JComboBox cb = (JComboBox)e.getSource();
-                String selection = (String)cb.getSelectedItem();
-                main.selectedStrategy(selection);
-            }
-        });
-        strategyBox.setAlignmentX(Component.CENTER_ALIGNMENT);
+//        JComboBox strategyBox = new JComboBox(Params.strategies);
+//        strategyBox.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent e) {
+//                JComboBox cb = (JComboBox)e.getSource();
+//                String selection = (String)cb.getSelectedItem();
+//                main.selectedStrategy(selection);
+//            }
+//        });
+//        strategyBox.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         buttonPanel.add(Box.createVerticalStrut(30));
         buttonPanel.add(toggleRun);
         buttonPanel.add(Box.createVerticalGlue());
         buttonPanel.add(toggleDemo);
         buttonPanel.add(Box.createVerticalGlue());
-        buttonPanel.add(strategyBox);
+//        buttonPanel.add(strategyBox);
         buttonPanel.add(Box.createVerticalStrut(Params.screenHeight - 300));
 
         buttonPanel.setAlignmentX(Component.CENTER_ALIGNMENT);

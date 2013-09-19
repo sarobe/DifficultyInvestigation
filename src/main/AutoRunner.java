@@ -28,7 +28,7 @@ public class AutoRunner {
 //        for(int i=0; i<1; ++i) {
             ParamEnums e = ParamEnums.ALL_PARAMS;
             System.out.println("STARTING NEW RUN, ADJUSTING " + e + " PARAMETER");
-            Runner r = startNewRun((0), e);
+            Runner r = startNewRun((1), e);
 
 //            activeRuns.add(r);
 //

@@ -109,7 +109,7 @@ public class LunarProblem implements IProblem<double[]> {
         }
     }
 
-    public void demonstrate(List<Spaceship> ships, List<ShipController> conts) {
+    public void demonstrate(List<Spaceship> ships, List<ShipController> conts, double[][] pop) {
         for(ShipController sc : conts) {
             if(sc.getShip().isAlive())
                 sc.think();

@@ -12,6 +12,7 @@ import strategy.CMAHandler;
 import strategy.IStrategy;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -20,11 +21,14 @@ public class ProblemProblem implements IProblem<double[]> {
     public int runIndex;
     public ParamEnums param; // which parameter is being examined?
 
+    public List<LunarTerrain> lts;
+    public double comparisonValue;
+
     public double valueRange = 10;
     public double thrustLimit = 20;
     public double lunarGravity = 10;
     public double friction = 1.0;
-    public int randomSeed = 10;
+    public int randomSeed = 1000;
     public int numLandingPads = 1;
     public int landingPadSize = 5;
     public double survivableVelocity = 15;
@@ -37,6 +41,7 @@ public class ProblemProblem implements IProblem<double[]> {
     public ProblemProblem(int runIndex, ParamEnums param) {
         this.runIndex = runIndex;
         this.param = param;
+        lts = new ArrayList<LunarTerrain>();
     }
 
     public int nDim() {
@@ -66,7 +71,7 @@ public class ProblemProblem implements IProblem<double[]> {
             score = Double.POSITIVE_INFINITY;
         } else {
             // get evolved solutions
-//            for(int i=0; i<3; i++) {
+            for(int i=0; i<3; i++) {
                 lp = new LunarProblem();
                 CMAHandler cma = new CMAHandler(lp, 0, 0, Params.valueRange, Params.popSize);
 
@@ -79,9 +84,12 @@ public class ProblemProblem implements IProblem<double[]> {
                 double subScore = ((endBestFitness - randMeanFitness)/randStdDevFitness);
 
                 score += subScore;
-//            }
-//            score /= 3;
+            }
+            score /= 3;
         }
+
+
+
         return score;
     }
 
@@ -180,11 +188,31 @@ public class ProblemProblem implements IProblem<double[]> {
     }
 
     public void demonstrationInit(List<Spaceship> ships, List<ShipController> conts, double[][] pop) {
+        // work
+        initialiseTerrains(pop);
     }
 
-    public void demonstrate(List<Spaceship> ships, List<ShipController> conts) {
+    public void demonstrate(List<Spaceship> ships, List<ShipController> conts, double[][] pop) {
+        // determine if the population has changed
+        // if so, redo the lunar terrains
+        if(pop[0][0] != comparisonValue) {
+            initialiseTerrains(pop);
+        }
     }
 
     public void visualiseExtraInformation(Graphics g) {
+        Graphics2D g2d = (Graphics2D) g;
+        for(LunarTerrain lt : lts) {
+            lt.draw(g2d, 0.15f);
+        }
+    }
+
+    private void initialiseTerrains(double[][] pop) {
+        lts = new ArrayList<LunarTerrain>();
+        for(double[] x : pop) {
+            LunarTerrain lt = new LunarTerrain(Params.numPoints, (int)Math.abs(x[5]), (int)Math.abs(x[4]), Params.flatLandscape, Math.abs(x[2]) * 10, Math.min(Math.abs(x[3]), 1.0), Math.abs(x[7]) * 10);
+            lts.add(lt);
+        }
+        comparisonValue = pop[0][0];
     }
 }

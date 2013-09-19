@@ -27,7 +27,7 @@ public class MainView extends JPanel {
 
     public boolean running = false;
     public boolean demoing = false;
-    public String currentStrategy = "CMA-ES";
+//    public String currentStrategy = "CMA-ES";
 
     public static MainView mainView; // null if no view, otherwise exists
 
@@ -56,14 +56,14 @@ public class MainView extends JPanel {
         running = true;
         int runIndex = getNextRunIndex();
         stv.setRunIndex(runIndex);
-        problem = new ProblemProblem(runIndex, ParamEnums.ALL_PARAMS);
-        if(currentStrategy.equals("CMA-ES")) {
-            handler = new CMAHandler(problem, runIndex, 0, 1, 10);//Params.valueRange);
-        } else if(currentStrategy.equals("T-HOO")) {
-            handler = new TruncatedHOOHandler(problem, runIndex);
-        } else if(currentStrategy.equals("(T-HOO)")) {
-            handler = new TruncatedHOOHandler(problem, runIndex, bestSolution, Params.bracketedRange);
-        }
+        problem = new LunarProblem();//new ProblemProblem(runIndex, ParamEnums.ALL_PARAMS);
+//        if(currentStrategy.equals("CMA-ES")) {
+            handler = new CMAHandler(problem, runIndex, 0, 5, 10);//Params.valueRange);
+//        } else if(currentStrategy.equals("T-HOO")) {
+//            handler = new TruncatedHOOHandler(problem, runIndex);
+//        } else if(currentStrategy.equals("(T-HOO)")) {
+//            handler = new TruncatedHOOHandler(problem, runIndex, bestSolution, Params.bracketedRange);
+//        }
         r = new Runner(runIndex, problem, handler, stv);
         Thread t = new Thread(r);
         t.start();
@@ -94,9 +94,9 @@ public class MainView extends JPanel {
         spv.stopDemo();
     }
 
-    public void selectedStrategy(String newStrategy) {
-        currentStrategy = newStrategy;
-    }
+//    public void selectedStrategy(String newStrategy) {
+//        currentStrategy = newStrategy;
+//    }
 
     public Dimension getPreferredSize() {
         return new Dimension(Params.screenWidth, Params.screenHeight);

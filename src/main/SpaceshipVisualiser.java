@@ -50,8 +50,8 @@ public class SpaceshipVisualiser extends JComponent {
                 }
             }
             g2d.setColor(Color.WHITE);
-            g2d.setFont(statFont);
-            g2d.drawString("Steps: " + ticks, 10, 20);
+//            g2d.setFont(statFont);
+//            g2d.drawString("Steps: " + ticks, 10, 20);
         }
     }
 

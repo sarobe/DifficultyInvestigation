@@ -12,6 +12,21 @@ public class LunarTerrain {
     public int[] landingPads;
     private int numPoints;
 
+
+    // values held purely for other visualisation purposes
+    public double gravity = 10;
+    public double friction = 1.0;
+    public double survivableVelocity = 15;
+
+
+
+    public LunarTerrain(int numPoints, int numLandingPads, int seed, boolean flat, double gravity, double friction, double survivableVelocity) {
+        this(numPoints, numLandingPads, seed, flat);
+        this.gravity = gravity;
+        this.friction = friction;
+        this.survivableVelocity = survivableVelocity;
+    }
+
     public LunarTerrain(int numPoints, int numLandingPads, int seed, boolean flat) {
         Params.rand.setSeed(seed);
 
@@ -129,6 +144,32 @@ public class LunarTerrain {
             g2d.drawLine((int)(landingPads[i] * xInterval), (int)(moonSurface[landingPads[i]]),
                     (int)((landingPads[i] + (landingPads[i+1]-1)) * xInterval), (int)(moonSurface[landingPads[i]]));
         }
+    }
+
+    public void draw(Graphics2D g2d, float alpha) {
+        g2d.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha));
+
+
+        double xInterval = Params.worldWidth / (double)moonSurface.length;
+        for(int i = 0; i < moonSurface.length; i++) {
+            g2d.setColor(Color.WHITE);
+            g2d.drawLine((int)(i * xInterval), (int)moonSurface[i], (int)((i+1) * xInterval), (int)moonSurface[((i+1)%moonSurface.length)]);
+
+            // strength of gravity
+            g2d.setColor(Color.GREEN);
+            g2d.drawLine((int)(i * xInterval), (int)moonSurface[i], (int)(i * xInterval), (int)(moonSurface[i] + gravity*2));
+        }
+        for(int i = 0; i < landingPads.length; i += 2) {
+            g2d.setColor(Color.BLUE);
+            g2d.drawLine((int)(landingPads[i] * xInterval), (int)(moonSurface[landingPads[i]]),
+                    (int)((landingPads[i] + (landingPads[i+1]-1)) * xInterval), (int)(moonSurface[landingPads[i]]));
+
+            // survivable velocity
+            g2d.setColor(Color.RED);
+            g2d.drawLine((int)(landingPads[i] * xInterval), (int)(moonSurface[landingPads[i]]), (int)(landingPads[i] * xInterval), (int)(moonSurface[landingPads[i]] - (survivableVelocity*2)));
+        }
+
+        g2d.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 1.0f));
     }
 
 }

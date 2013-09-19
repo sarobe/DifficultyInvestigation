@@ -14,11 +14,11 @@ public class Grapher {
 
     public static void main(String[] args) throws Exception {
 
-        final int startingIndex = 12;
+        final int startingIndex = 56;
         final int graphs = 1;
 
         for(int i=startingIndex; i<startingIndex + graphs; i++) {
-            transformData(i, 0);
+//            transformData(i, 0);
             drawGraph(i);
         }
         new JEasyFrame(new JPanel(), "Keep Graph Open!");

@@ -13,7 +13,7 @@ public class Params {
     public static int screenHeight = 900;
 
     public static int worldWidth = 600;
-    public static int worldHeight = 600;
+    public static int worldHeight = 800;
 
     public static int delay = 20;
     public static double dt = delay / 1000.0;

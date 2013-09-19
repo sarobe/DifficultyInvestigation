@@ -14,7 +14,7 @@ public interface IProblem<T> {
     T getInstance(double[] x);
 
     void demonstrationInit(List<Spaceship> ships, List<ShipController> conts, double[][] pop);
-    void demonstrate(List<Spaceship> ships, List<ShipController> conts);
+    void demonstrate(List<Spaceship> ships, List<ShipController> conts, double[][] pop);
 
     void visualiseExtraInformation(Graphics g);
 }

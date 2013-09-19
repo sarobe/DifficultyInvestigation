@@ -37,7 +37,7 @@ public class Demonstrator implements Runnable {
         // MAIN DEMONSTRATION LOOP
         try {
             while(runDemo) {
-                problem.demonstrate(ships, conts);
+                problem.demonstrate(ships, conts, pop);
                 sv.repaint();
                 sv.tick();
                 Thread.sleep(Params.delay);
